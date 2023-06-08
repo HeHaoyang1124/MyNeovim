@@ -7,5 +7,6 @@ require("conf.plugins.mason")
 require("conf.plugins.Treesitter")
 require("conf.plugins.coc")
 require("conf.dap.config")
--- require("conf.debug.vimspector")
+require("conf.plugins.airline")
+
 

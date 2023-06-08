@@ -52,9 +52,17 @@ require("catppuccin").setup({
     },
 })
 
+require('onedark').setup {
+    style = 'warmer',
+    transparent_background = true
+}
+
 -- -- setup must be called before loading
 vim.cmd.colorscheme "catppuccin"
 -- vim.cmd.colorscheme "gruvbox"
+-- vim.cmd.colorscheme "onedark"
 
 local VimExtConfig = [[ highlight Normal guibg=NONE ctermbg=None ]]
 vim.cmd(VimExtConfig)
+
+

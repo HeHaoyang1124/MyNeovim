@@ -30,8 +30,7 @@ return require('packer').startup(function(use)
     use { "ellisonleao/gruvbox.nvim" }
     --catppuccin
     use { "catppuccin/nvim", as = "catppuccin" }
-    --Nightfox
-    use { "EdenEast/nightfox.nvim" }
+    use 'navarasu/onedark.nvim'
     --NvimTree
     use {
         'nvim-tree/nvim-tree.lua',
