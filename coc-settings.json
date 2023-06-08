@@ -1,0 +1,9 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build"
+    ],
+    "snippets.ultisnips.pythonPrompt": false,
+    "suggest.noselect" : true
+}
+
+
