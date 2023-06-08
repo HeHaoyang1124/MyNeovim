@@ -73,6 +73,10 @@ return require('packer').startup(function(use)
 
     --lsp
     use "neoclide/coc.nvim"
+
+    --airline
+    use "vim-airline/vim-airline"
+    use 'vim-airline/vim-airline-themes'
     -- My plugins here
     -- use 'foo1/bar1.nvim'
     -- use 'foo2/bar2.nvim'
