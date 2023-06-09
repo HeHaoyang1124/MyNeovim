@@ -66,7 +66,7 @@ return require('packer').startup(function(use)
 
     --commenter
     use 'scrooloose/nerdcommenter'
-    
+
     --ClangFormat
     use "rhysd/vim-clang-format"
 
@@ -76,6 +76,16 @@ return require('packer').startup(function(use)
     --airline
     use "vim-airline/vim-airline"
     use 'vim-airline/vim-airline-themes'
+
+    --Aerial
+    use {
+        'stevearc/aerial.nvim',
+        config = function() require('aerial').setup() end
+    }
+
+    --Leetcode
+    use "skygragon/leetcode-cli"
+
     -- My plugins here
     -- use 'foo1/bar1.nvim'
     -- use 'foo2/bar2.nvim'

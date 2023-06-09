@@ -6,7 +6,15 @@ vim.cmd [[
     let g:airline#extensions#tabline#left_alt_sep = '|'
     let g:airline#extensions#tabline#right_sep = ' '
     let g:airline#extensions#tabline#right_alt_sep = '|'
-    let g:airline#extensions#tabline#buffer_nr_show = 1
+    let g:airline#extensions#tabline#buffer_nr_show = 0
+
+    let g:airline#extensions#bufferline#enabled = 1
+    let g:airline#extensions#bufferline#left_sep = ' '
+    let g:airline#extensions#bufferline#left_alt_sep = '|'
+    let g:airline#extensions#bufferline#right_sep = ' '
+    let g:airline#extensions#bufferline#right_alt_sep = '|'
+    let g:airline#extensions#bufferline#buffer_nr_show = 0
+
     let g:airline_theme='catppuccin'
     set encoding=utf-8
     set langmenu=zh_CN.UTF-8
